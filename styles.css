@@ -1,0 +1,111 @@
+body {
+  align-items: center;
+  background-color: hsl(185, 75%, 39%);
+  color: hsl(229, 23%, 23%);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Kumbh Sans', sans-serif;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  display: inline;
+  font-size: 1.125rem;
+}
+
+hr {
+  border: none;
+  border-top: solid 0.0625rem;
+  border-color: lightgrey;
+  margin: 0;
+  position: relative;
+  top: -1.5625rem;
+}
+
+p {
+  color: hsl(0, 0%, 59%);
+  font-size: 0.625rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 0.9375rem;
+  padding-bottom: 1.5rem;
+  width: 21rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.pfp {
+  border: solid white 0.3125rem;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -3.5rem;
+}
+
+.name {
+  padding-right: 0.3125rem;
+  position: relative;
+  top: -2rem;
+}
+
+.age {
+  color: hsl(227, 10%, 46%);
+  display: inline;
+  font-size: 1.125rem;
+  font-weight: normal;
+  position: relative;
+  top: -2rem;
+}
+
+.location {
+  position: relative;
+  top: -2.4rem;
+  color: hsl(0, 0%, 59%);
+  font-size: 1rem;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.stats-container {
+  /*border: red solid 1px;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.stats {
+  margin: 0 0 0.3rem;
+}
+
+.eightyK {
+  position: relative;
+  left: 0.7rem;
+}
+
+.stats-descriptor {
+  margin: 0;
+}
+
+.likes {
+  position: relative;
+  left: -0.7rem;
+}
+
+.bg-top {
+  position: absolute;
+  left: -25rem;
+  top: -25rem;
+}
+
+.bg-bottom {
+  position: absolute;
+  bottom: -35rem;
+  right: -20rem;
+}
